@@ -1,6 +1,6 @@
 import '../style.css'
 
-const myshroom = (await fetch("https://raw.githubusercontent.com/fosskers/myshroom-api/master/public/mushrooms.json")).json()
+const myshroom = fetch("https://raw.githubusercontent.com/fosskers/myshroom-api/master/public/mushrooms.json").then(setas => setas.json())
 
 
 document.getElementById("buscar").addEventListener("click",async () => {
