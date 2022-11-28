@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClasificalaTu</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>ClasificalaTu</h1>
+    <div class="form">
+      <div class="text">Forma del sombrero</div>
+      <div class="boxes">
+        <div><input type="checkbox" value="flat">flat</div>
+        <div><input type="checkbox" value="convex">convex</div>
+        <div><input type="checkbox" value="offset">offset</div>
+        <div><input type="checkbox" value="indistinct">indistinct</div>
+        <div><input type="checkbox" value="corical">corical</div>
+        <div><input type="checkbox" value="umbonate">umbonate</div>
+        <div><input type="checkbox" value="infundibuliform">infundibuliform</div>
+        <div><input type="checkbox" value="depressed">depressed</div>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="text">Parte inferior del sombrero</div>
+      <div class="select">
+        <select name="sombreroInf" id="sombreroInf">
+          <option value="free">free</option>
+          <option value="adnate">adnate</option>
+          <option value="subdecurrent">subdecurrent</option>
+          <option value="adnaxed">adnaxed</option>
+          <option value="decurrent">decurrent</option>
+          <option value="irregular">irregular</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="text">Color de las esporas</div>
+      <div class="select">
+        <select name="esporas" id="esporas">
+          <option value="white">white</option>
+          <option value="brown">brown</option>
+          <option value="black-brown">black-brown</option>
+          <option value="yellow">yellow</option>
+          <option value="buff">buff</option>
+          <option value="cream">cream</option>
+          <option value="salmon">salmon</option>
+          <option value="reddish-brown">reddish-brown</option>
+          <option value="pink">pink</option>
+          <option value="tan">tan</option>
+          <option value="black">black</option>
+        </select>
+      </div>
+    </div>
+
+    <button id="buscar">Buscar</button>
+
+    <div id="info"></div>
+  </div>
+</body>
+<script type="module" src="/src/main.js"></script>
+
+</html>
